@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+body {
+  background-color: rgb(50, 11, 86);
+}
+
+
+
+
+.titulo {
+  text-align: center;
+  padding: 1pc;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(188, 171, 150);
+  margin: 2pc;
+  border-spacing: 0cap;
+  border-radius: 2pc;
+  box-sizing: border-box;
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+
+  border: solid 10px rgb(255, 255, 255);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  height: 54pc;
+  margin-top: 3pc;
+  border: 5px solid white;
+  background-color: rgb(188, 171, 150);
+  max-height: 52pc;
+}
+
+.coluna1,
+.coluna2,
+.coluna3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.coluna1,
+.coluna3 {
+  flex: 1;
+}
+
+.coluna2 {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.bloco2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 5px;
+  max-height: 50pc;
+  
+
+}
+
+.bloco {
+  border: 2px solid black;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  max-height: 50pc;
+}
+
+#bloco1,
+#bloco3 {
+  flex: 1;
+}
+
+#bloco4,
+#bloco5 {
+  height: 45%;
+}
+
+#bloco1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  padding: 0%;
+
+}
+
+#bloco3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  padding: 0%;
+
+}
+
+#bloco4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  padding: 0%;
+
+}
+
+#bloco5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  padding: 0%;
+
+}
+#bloco1, #bloco3, #bloco4, #bloco5{
+  cursor: pointer;
+}
+img:hover{
+  outline: 5px solid rgb(62, 62, 62);
+}
